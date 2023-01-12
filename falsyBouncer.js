@@ -13,5 +13,11 @@ function bool(i){
 }
 
 console.log(booleans);
+// simpler verion iss ka ye hai
 
 console.log(arrOfNums.filter(Boolean)) // this is known as falsy bouncer.
+
+/*both will produce the same output:
+[ 1, 3, 24, 12, 3 ]
+[ 1, 3, 24, 12, 3 ]
+*/
